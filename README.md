@@ -11,6 +11,47 @@ Table of Contents:
 7. Evaluation <br>
 8. Results <br>
 9. Contributing <br>
-10. License <br>
+10. License <be>
+
+Generated Project Structure
+<pre>
+project_name/
+│
+├── data/                           # Data-related files
+│   ├── raw/                        # Raw, unprocessed data files
+│   └── processed/                  # Processed data files (if applicable in the future)
+│
+├── notebooks/                      # Jupyter notebooks for EDA and experimentation
+│   ├── experiments.ipynb           # Experimentation notebook
+│   ├── prediction.ipynb            # Prediction notebook
+│   └── salaryregression.ipynb      # Salary regression notebook
+│
+├── pickle/                         # Pickle files for preprocessing
+│   ├── label_encoder_gender.pkl    # Label encoder for gender
+│   ├── onehot_encoder_geo.pkl      # One-hot encoder for geographical data
+│   └── scaler.pkl                  # Scaler for normalization
+│
+├── logs/                           # Logs for general processes
+│   ├── train/                      # Training logs
+│   └── validation/                 # Validation logs
+│
+├── regression_logs/                # Regression-specific logs
+│   ├── train/                      # Training regression logs
+│   └── validation/                 # Validation regression logs
+│
+├── models/                         # Saved models
+│   ├── models.h5                   # Main model file
+│   └── regression_model.h5         # Regression model file
+│
+├── reports/                        # Reports and visualizations
+│   └── figures/                    # Plots and visualizations
+│
+├── app.py                          # Main application script
+├── streamlit_regression.py         # Streamlit app for regression model
+├── requirements.txt                # Dependencies and libraries
+├── README.md                       # Project overview
+└── .gitignore                      # Git ignore file
+</pre>
+
 
 License: This project is license under MIT License
