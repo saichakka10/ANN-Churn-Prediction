@@ -13,6 +13,19 @@ Table of Contents:
 9. Contributing <br>
 10. License <be>
 
+Project Overview
+
+Problem Statement:
+Predict whether a customer is likely to churn and estimate their salary.
+
+Goal:
+By estimating customer salary, the bank can target potential customers for loans, increasing business opportunities. Predicting customer churn enables the bank to take proactive measures to retain customers and reduce churn rates.
+
+Solution:
+An Artificial Neural Network (ANN) model is used to train and predict both churn likelihood and customer salary
+
+
+
 Generated Project Structure
 <pre>
 project_name/
