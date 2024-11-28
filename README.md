@@ -14,17 +14,18 @@ Table of Contents:
 10. License <be>
 
 
-Problem Statement:
+**Project Overview:**
+**Problem Statement:**
 Predict whether a customer is likely to churn and estimate their salary.
 
-Goal:
+**Goal:**
 By estimating customer salary, the bank can target potential customers for loans, increasing business opportunities. Predicting customer churn enables the bank to take proactive measures to retain customers and reduce churn rates.
 
-Solution:
+**Solution:**
 An Artificial Neural Network (ANN) model is used to train and predict both churn likelihood and customer salary
 
 
-Dataset Information:<br>
+**Dataset Information:** <br>
 **Credit Score:** The customer's credit score, which reflects their creditworthiness.<br>
 **Geography:** The geographic region where the customer resides (Spain, France, Germany).<br>
 **Gender:** The gender of the customer (Male or Female).<br>
@@ -36,6 +37,29 @@ Dataset Information:<br>
 **Is Active Member:** Indicates how actively the customer is using the bank's services.<br>
 **Estimated Salary:** The estimated annual salary of the customer.<br>
 **Exited:** Whether or not the customer is likely to churn (exit the bank).<br>
+
+## Project Workflow:
+
+- **Data Collection:**  
+  The dataset was obtained from Kaggle as the primary resource.
+
+- **Data Preprocessing:**  
+  Data preprocessing was performed using the Pandas library in Python, which involved cleaning and transforming the data.
+
+- **Feature Engineering:**  
+  Relevant features were selected and engineered to enhance model performance.
+
+- **Model Selection:**  
+  Artificial Neural Networks (ANN) were chosen as the model for predicting customer churn and estimating salary.
+
+- **Model Training and Optimization:**  
+  The ANN model was trained using the preprocessed data, followed by optimization to improve accuracy and performance.
+
+- **Prediction:**  
+  The model predicts both the estimated salary of the customer and whether the customer is likely to churn.
+
+- **Deployment:**  
+  The model was deployed on Streamlit Cloud for interactive real-time predictions, and the code was checked into GitHub for version control and contribution tracking.
 
 
 Generated Project Structure
