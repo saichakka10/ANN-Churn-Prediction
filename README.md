@@ -24,18 +24,18 @@ Solution:
 An Artificial Neural Network (ANN) model is used to train and predict both churn likelihood and customer salary
 
 
-Dataset Information:
-** Credit Score: The customer's credit score, which reflects their creditworthiness.<br>
-** Geography: The geographic region where the customer resides (Spain, France, Germany).<br>
-** Gender: The gender of the customer (Male or Female).<br>
-** Age: The age of the customer.<br>
-** Tenure: The length of time the customer has been with the bank.<br>
-** Balance: The current bank balance of the customer.<br>
-** Number of Products: The total number of products the customer uses with the bank.<br>
-** Has Credit Card: Whether or not the customer holds a credit card with the bank.<br>
-** Is Active Member: Indicates how actively the customer is using the bank's services.<br>
-** Estimated Salary: The estimated annual salary of the customer.<br>
-** Exited: Whether or not the customer is likely to churn (exit the bank).<br>
+Dataset Information:<br>
+**Credit Score:** The customer's credit score, which reflects their creditworthiness.<br>
+**Geography:** The geographic region where the customer resides (Spain, France, Germany).<br>
+**Gender:** The gender of the customer (Male or Female).<br>
+**Age:** The age of the customer.<br>
+**Tenure:** The length of time the customer has been with the bank.<br>
+**Balance:** The current bank balance of the customer.<br>
+**Number of Products:** The total number of products the customer uses with the bank.<br>
+**Has Credit Card:** Whether or not the customer holds a credit card with the bank.<br>
+**Is Active Member:** Indicates how actively the customer is using the bank's services.<br>
+**Estimated Salary:** The estimated annual salary of the customer.<br>
+**Exited:** Whether or not the customer is likely to churn (exit the bank).<br>
 
 
 Generated Project Structure
