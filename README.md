@@ -13,7 +13,6 @@ Table of Contents:
 9. Contributing <br>
 10. License <be>
 
-Project Overview
 
 Problem Statement:
 Predict whether a customer is likely to churn and estimate their salary.
@@ -24,6 +23,19 @@ By estimating customer salary, the bank can target potential customers for loans
 Solution:
 An Artificial Neural Network (ANN) model is used to train and predict both churn likelihood and customer salary
 
+
+Dataset Information:
+** Credit Score: The customer's credit score, which reflects their creditworthiness.
+** Geography: The geographic region where the customer resides (Spain, France, Germany).
+** Gender: The gender of the customer (Male or Female).
+** Age: The age of the customer.
+** Tenure: The length of time the customer has been with the bank.
+** Balance: The current bank balance of the customer.
+** Number of Products: The total number of products the customer uses with the bank.
+** Has Credit Card: Whether or not the customer holds a credit card with the bank.
+** Is Active Member: Indicates how actively the customer is using the bank's services.
+** Estimated Salary: The estimated annual salary of the customer.
+** Exited: Whether or not the customer is likely to churn (exit the bank).
 
 
 Generated Project Structure
@@ -60,11 +72,11 @@ project_name/
 │   └── figures/                    # Plots and visualizations
 │
 ├── app.py                          # Main application script
-├── streamlit_regression.py         # Streamlit app for regression model
+├── streamlit_regression.py         # Streamlit app for the regression model
 ├── requirements.txt                # Dependencies and libraries
 ├── README.md                       # Project overview
 └── .gitignore                      # Git ignore file
 </pre>
 
 
-License: This project is license under MIT License
+License: This project is licensed under MIT License
