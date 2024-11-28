@@ -1,7 +1,7 @@
 # Churn Prediction Project
 This project predicts customer churn using an artificial neural network (ANN) model trained on a dataset with features such as geography, gender, age, balance, credit score, tenure, number of products, has credit card, isActiveMember, estimated salary, and exit status. After thorough preprocessing, including feature scaling and encoding, the ANN model was developed to classify customers as likely to churn or retain. The solution is deployed on Streamlit Cloud, providing a user-friendly interface for real-time churn predictions, enabling businesses to implement proactive retention strategies.
 
-Table of Contents:
+## Table of Contents:
 1. Project Overview <br>
 2. Dataset Information <br>
 3. Project Workflow <br>
@@ -14,7 +14,7 @@ Table of Contents:
 10. License <be>
 
 
-**Project Overview:**
+## Project Overview:
 **Problem Statement:**
 Predict whether a customer is likely to churn and estimate their salary.
 
@@ -25,7 +25,7 @@ By estimating customer salary, the bank can target potential customers for loans
 An Artificial Neural Network (ANN) model is used to train and predict both churn likelihood and customer salary
 
 
-**Dataset Information:** <br>
+## Dataset Information: <br>
 **Credit Score:** The customer's credit score, which reflects their creditworthiness.<br>
 **Geography:** The geographic region where the customer resides (Spain, France, Germany).<br>
 **Gender:** The gender of the customer (Male or Female).<br>
@@ -62,7 +62,7 @@ An Artificial Neural Network (ANN) model is used to train and predict both churn
   The model was deployed on Streamlit Cloud for interactive real-time predictions, and the code was checked into GitHub for version control and contribution tracking.
 
 
-Generated Project Structure
+Generated Project Structure:
 <pre>
 project_name/
 │
@@ -103,4 +103,5 @@ project_name/
 </pre>
 
 
-License: This project is licensed under MIT License
+## License: 
+This project is licensed under the MIT License
