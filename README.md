@@ -10,9 +10,8 @@ This project predicts customer churn using an artificial neural network (ANN) mo
 6. Usage <br>
 7. Model Development <br>
 8. Evaluation <br>
-9. Results <br>
-10. Contributing <br>
-11. License <be>
+9. Contributing <br>
+10. License <br>
 
 
 ## Project Overview:
