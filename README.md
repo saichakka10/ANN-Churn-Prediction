@@ -44,7 +44,7 @@ project_name/
 │   ├── onehot_encoder_geo.pkl      # One-hot encoder for geographical data
 │   └── scaler.pkl                  # Scaler for normalization
 │
-├── logs/                           # Logs for general processes
+├── logs/                           # Classification specific logs
 │   ├── train/                      # Training logs
 │   └── validation/                 # Validation logs
 │
@@ -53,7 +53,7 @@ project_name/
 │   └── validation/                 # Validation regression logs
 │
 ├── models/                         # Saved models
-│   ├── models.h5                   # Main model file
+│   ├── models.h5                   # Classification model file
 │   └── regression_model.h5         # Regression model file
 │
 ├── reports/                        # Reports and visualizations
